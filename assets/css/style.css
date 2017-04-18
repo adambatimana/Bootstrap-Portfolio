@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+.cf {
+  overflow: auto;
+}
+
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.cf {
+  *zoom: 1;
+}
+
+#wrapper {
+  padding: 2em;
+  margin: 0 auto;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#container {
+  background-image: url('../images/pinkdust.png');
+  padding: 1.25em;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.col-md-8 {
+  background: #FFF;
+  border-radius: 5px;
+  width: 65%;
+  padding-bottom: 2em;
+}
+
+.col-md-3 {
+  width: 35%;
+  padding: 0;
+}
+
+.col-md-4 {
+  width: 34%;
+}
+
+.col-md-9 {
+  width: 65%;
+  float: left;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+}
+
+.page-header {
+  margin-top: 2em;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-bottom: solid 3px lightgray;
+}
+
+.navbar-brand {
+  position: relative;
+  left: 2em;
+  background: #4aaaa5;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFF;
+}
+
+hr {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+.panel-default{
+  width: 85%;
+  margin: 0 auto;
+}
+.panel-default>.panel-heading {
+  background: white;
+  border: 0;
+  color: #4aaaa5;
+}
+
+.panel-default>.panel-heading h3 {
+  font-size: 1.5em;
+}
+.panel-body ul{
+  text-align: center;
+  margin: 0;
+  padding-left: 0;
+}
+.panel-body ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
+  width: 64px;
+}
+
+
+
+footer {
+  width: 100%;
+  text-align: center;
+  background: #666666;
+  color: #fff;
+  border-top: solid 2px #4aaaa5;
+  padding: 1.5em;
+  clear: both;
+}

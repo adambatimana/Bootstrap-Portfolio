@@ -118,8 +118,29 @@ hr {
   margin: 0 auto;
   width: 64px;
 }
+.thumbnail{
+  display: inline-block;
+  float: left;
+  padding: 0;
+
+}
+.portfolio .col-md-4{
+  width: 50%;
+}
+.thumbnail .caption{
+  padding: 0;
+position: relative;
+/*bottom: 4em;*/
+}
+.thumbnail .caption h3{
+  background: #4aaaa5;
+  color: #FFF;
+  text-align: center;
+  line-height: 2em;
+  margin: 0 auto;
 
 
+}
 
 footer {
   width: 100%;
